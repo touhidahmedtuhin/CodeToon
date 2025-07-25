@@ -1,0 +1,128 @@
+body {
+  background-color: #558c90;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+}
+.mai-body {
+  background-color: #325853;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 25px;
+  top: 25px;
+  border-radius: 50px;
+}
+
+.line1 {
+  background-color: #558c90;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  top: 100px;
+}
+.line2 {
+  background-color: #558c90;
+  width: 20px;
+  height: 250px;
+  position: relative;
+  top: -50px;
+  left: 115px;
+}
+
+.small-box1 {
+  width: 20px;
+  height: 20px;
+  background-color: #325853;
+  position: relative;
+  top: 115px;
+}
+.small-box2 {
+  width: 20px;
+  height: 20px;
+  background-color: #325853;
+  position: relative;
+  top: 115px;
+  left: 20px;
+}
+.small-box3 {
+  width: 20px;
+  height: 20px;
+  background-color: #325853;
+  position: relative;
+  top: 93px;
+  right: 20px;
+}
+.small-box4 {
+  width: 20px;
+  height: 20px;
+  background-color: #325853;
+  position: relative;
+  top: 35px;
+  right: -20px;
+}
+.small-box5 {
+  width: 20px;
+  height: 20px;
+  background-color: #325853;
+  position: relative;
+  top: 15px;
+  right: 20px;
+}
+
+.yellow-line {
+  background-color: #f4da64;
+  height: 19px;
+  width: 70px;
+  position: relative;
+  top: -150px;
+  left: 45px;
+}
+.yellow-line2 {
+  background-color: #f4da64;
+  height: 19px;
+  width: 70px;
+  position: relative;
+  top: -170px;
+  left: 135px;
+}
+
+.yellow-line3 {
+  background-color: #f4da64;
+  height: 19px;
+  width: 70px;
+  position: relative;
+  top: -257px;
+  left: 45px;
+}
+
+.yellow-line4 {
+  background-color: #f4da64;
+  height: 19px;
+  width: 70px;
+  position: relative;
+  top: -276px;
+  left: 135px;
+}
+
+.yellow-line5 {
+  background-color: #f4da64;
+  height: 50px;
+  width: 30px;
+  position: relative;
+  top: -276px;
+  left: 175px;
+}
+.yellow-line6 {
+  background-color: #f4da64;
+  height: 50px;
+  width: 30px;
+  position: relative;
+  top: -326px;
+  left: 45px;
+}
