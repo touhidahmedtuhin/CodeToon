@@ -1,0 +1,82 @@
+:root {
+  --color-one :#CE636F;
+  --color-two :#F7BED9;
+  --color-three :#B44141;
+}
+
+body {
+  background-color: var(--color-one);
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 500px;
+  height: 300px;
+  background-color: var(--color-one);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-two);
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-three);
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-two);
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-three);
+}
+
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-two);
+}
+
+.box6 {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-one);
+}
+
+.box7 {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-two);
+    border-bottom-left-radius: 3rem;
+}
+
+.box8 {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-three);
+}
+.box9 {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-two);
+    border-bottom-right-radius: 3rem;
+}
+.box10 {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-one);
+}
