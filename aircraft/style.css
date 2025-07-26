@@ -1,0 +1,69 @@
+:root {
+  --triangle-color: #c15965;
+  --body-color: #b0e1fb;
+  --main-color: #4b4d88;
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  /* background-color: aquamarine; */
+}
+.triangle-red {
+  width: 150px;
+  height: 150px;
+  background: var(--triangle-color);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: relative;
+  top: 150px;
+  left: 125px;
+}
+
+.body1 {
+  width: 111px;
+  height: 242px;
+  background-color: var(--body-color);
+  position: relative;
+  top: -131px;
+  left: 144px;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.body2 {
+  width: 77px;
+  height: 236px;
+  background-color: var(--main-color);
+  position: relative;
+  top: -372px;
+  left: 162px;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.wings1 {
+height: 50px;
+    width: 50px;
+    background-color: var(--main-color);
+    clip-path: polygon(0% 0%, 0% 100%, 140% 150%);
+    /* transform: rotate(-3deg); */
+    position: relative;
+    left: 90px;
+    top: 80px;
+}
+
+.wings2 {
+height: 50px;
+    width: 50px;
+    background-color: var(--main-color);
+    clip-path: polygon(110% -10%, 0% 100%, 135% 150%);
+    position: relative;
+    right: 65px;
+    top: 35px;
+}
