@@ -1,0 +1,63 @@
+:root {
+  --body-color:#EBE77E;
+  --circle-color:#7E6293;
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color:var(--body-color);
+}
+
+.main-circle {
+  width: 200px;
+  height: 200px;
+  background-color: var(--circle-color);
+  border-radius: 10rem;
+  position: relative;
+  top: 100px;
+  left:100px;
+}
+.second-circle {
+width: 150px;
+    height: 150px;
+    background-color: var(--body-color);
+    border-radius: 5rem;
+    position: relative;
+    left: 125px;
+    bottom: 75px;
+}
+
+.third-circle {
+    width: 100px;
+    height: 100px;
+    background-color: var(--circle-color);
+    border-radius: 5rem;
+    position: relative;
+    left: 150px;
+    bottom: 200px;
+}
+
+
+.forth-circle {
+width: 50px;
+    height: 50px;
+    background-color: var(--body-color);
+    border-radius: 5rem;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.line {
+    width: 20px;
+    height: 70px;
+    background-color: var(--circle-color);
+    position: relative;
+    bottom: 67px;
+    left: 40px;
+}
