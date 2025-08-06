@@ -1,0 +1,40 @@
+:root {
+  --yellow-color: #f0cd48;
+  --white-color: #ffffff;
+  --black-color: #394257;
+}
+body {
+  background-color: var(--yellow-color);
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: var(--yellow-color);
+}
+.black-body {
+  width: 400px;
+  height: 100px;
+  background-color: var(--black-color);
+  border-radius: 25px;
+  position: relative;
+  top: 150px;
+}
+.white-body {
+  width: 380px;
+  height: 80px;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.line {
+  width: 15px;
+  height: 60px;
+  background-color: var(--black-color);
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
